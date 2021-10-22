@@ -1,0 +1,54 @@
+*,body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background: #add8e6;
+}
+.box_wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+  grid-gap:40px;
+
+}
+.box_element{
+  background: #f5f5f5;
+  padding-bottom: 1px;
+  margin-bottom: 40px;
+}
+.box_element p{
+  margin:30px;
+}
+.box_element h3{
+  margin: 30px 30px 0px 30px;
+}
+.element_in{
+  width: 100%;
+  background: #c3c3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color:#80868c;
+  font-family: sans-serif;
+}
+.one{
+  height: 150px;
+}
+.two{
+  height: 100px;
+}
+.three{
+  height: 220px;
+}
+.four{
+  height: 230px;
+}
+.five{
+  height: 350px;
+}
+
